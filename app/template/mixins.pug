@@ -1,0 +1,38 @@
+mixin skill-item(title, skills)
+    li
+        h4= title
+        if skills
+            each skill in skills
+                p= skill
+
+mixin responsibilities(items)
+    ul
+        each item in items
+            li= item
+
+mixin project-item(title, url, text)
+    li
+        h4
+            a(href=url) #{title}
+        p #{text}
+        br
+
+mixin os-project-item(title, url, github, text)
+    li
+        a(href=url) #{title}
+        | ,&nbsp;
+        a(href=github) source code
+
+        p #{text}
+
+
+mixin github-project-item(title, github, text)
+    li
+        a(href=github) #{title}
+
+        p #{text}
+
+mixin job-title(position, company, url, date)
+    h4 #{position} at&nbsp;
+        a(href=url) #{company}
+        |  #{date}
