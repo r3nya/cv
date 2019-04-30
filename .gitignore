@@ -1,6 +1,5 @@
 node_modules
 components/
-index.html
 .idea/
 dest/
 npm-debug.log
