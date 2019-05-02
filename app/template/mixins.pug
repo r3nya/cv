@@ -6,9 +6,13 @@ mixin skill-item(title, skills)
                 p= skill
 
 mixin responsibilities(items)
-    ul
+    span Tech stack:
         each item in items
-            li= item
+            = item
+
+mixin tech-stack(text)
+    i Technology stack:&nbsp;
+        = text
 
 mixin project-item(title, url, text)
     li
@@ -33,6 +37,18 @@ mixin github-project-item(title, github, text)
         p #{text}
 
 mixin job-title(position, company, url, date)
-    h4 #{position} at&nbsp;
+    h3 #{position} at&nbsp;
         a(href=url) #{company}
         |  #{date}
+
+mixin project(text, link)
+    p
+        b Project:&nbsp;
+            a(href=link) #{text}
+
+mixin projects(projects)
+    p
+        b Projects:&nbsp;
+            each item in projects
+                a(href=item.link) #{item.text}
+                | &nbsp;
