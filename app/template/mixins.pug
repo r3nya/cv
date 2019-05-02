@@ -49,6 +49,7 @@ mixin project(text, link)
 mixin projects(projects)
     p
         b Projects:&nbsp;
-            each item in projects
+            each item, index in projects
                 a(href=item.link) #{item.text}
-                | &nbsp;
+                if index < Object.keys(projects).length - 1
+                    |,&nbsp;
