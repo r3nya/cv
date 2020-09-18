@@ -5,6 +5,27 @@
         ul
             li
                 +job-title(
+                    'React-native developer',
+                    'Huddle',
+                    'https://www.huddle-health.com/',
+                    '(2019 – …)'
+                )
+
+                +projects([
+                    {
+                        text: 'iOS app',
+                        link: 'https://apps.apple.com/us/app/huddle-health/id1482023293?ls=1'
+                    },
+                    {
+                        text: 'Android app',
+                        link: 'https://play.google.com/store/apps/details?id=com.huddlehealth'
+                    }
+                ])
+
+                +tech-stack('React Native, Redux, Jest, React Native Testing Library')
+
+            li
+                +job-title(
                     'Frontend lead',
                     'Hippo LLC',
                     'https://www.hellohippo.com/',
