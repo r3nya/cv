@@ -26,6 +26,6 @@
     "gulp-purifycss": "^0.2.0"
   },
   "dependencies": {
-    "muicss": "^0.9.20"
+    "muicss": "^0.10.3"
   }
 }

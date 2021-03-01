@@ -2347,9 +2347,11 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-muicss@^0.9.20:
-  version "0.9.20"
-  resolved "https://registry.yarnpkg.com/muicss/-/muicss-0.9.20.tgz#be0e7b16da2cf135a5f54f6f7da7885ed2459233"
+muicss@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/muicss/-/muicss-0.10.3.tgz#b1167e7e75a1a744d043e856ac3bffa9c40eb7da"
+  dependencies:
+    react-addons-shallow-compare "^15.6.2"
 
 multipipe@^0.1.2:
   version "0.1.2"
@@ -2755,6 +2757,12 @@ purify-css@^1.0.8:
     rework "^1.0.1"
     uglifyjs "^2.4.10"
     yargs "^3.10.0"
+
+react-addons-shallow-compare@^15.6.2:
+  version "15.6.3"
+  resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.6.3.tgz#28a94b0dfee71530852c66a69053d59a1baf04cb"
+  dependencies:
+    object-assign "^4.1.0"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
