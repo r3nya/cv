@@ -18,7 +18,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "del": "^7.1.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-clean-css": "^3.7.0",
     "gulp-concat": "^2.6.0",
     "gulp-open": "^3.0.1",
