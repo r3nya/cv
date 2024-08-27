@@ -1,0 +1,40 @@
+name: John Doe
+location: Your Location
+email: youremail@yourdomain.com
+phone: "+90 541 999 99 99"
+website: yourwebsite.com
+linkedin: linkedin.com/in/yourusername
+github: github.com/yourusername
+
+education:
+  - institution: University of Pennsylvania
+    degree: BS in Computer Science
+    date: Sept 2000 – May 2005
+    details:
+      - "GPA: 3.9/4.0 (Transcript: https://example.com)"
+      - "Coursework: Computer Architecture, Artificial Intelligence, Comparison of Learning Algorithms, Computational Theory"
+
+experience:
+  - title: Software Engineer
+    company: Apple
+    location: Cupertino, CA
+    date: June 2005 – Aug 2007
+    details:
+      - "Reduced time to render the user's buddy list by 75% by implementing a prediction algorithm"
+      - "Implemented iChat integration with OS X Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database"
+      - "Redesigned chat file format and implemented backward compatibility for search"
+
+  # Add more experience entries...
+
+projects:
+  - name: Multi-User Drawing Tool
+    link: https://github.com/name/repo
+    details:
+      - 'Developed an electronic classroom where multiple users can view and simultaneously draw on a "chalkboard" with each person''s edits synchronized'
+      - "Tools Used: C++, MFC"
+
+  # Add more project entries...
+
+skills:
+  - "Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript"
+  - "Software: .NET, Microsoft SQL Server, XCode, Interface Builder"
