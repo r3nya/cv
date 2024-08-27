@@ -12,7 +12,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: template.tex
+          root_file: cv.tex
 
       - name: Upload PDF file
         uses: actions/upload-artifact@v2
